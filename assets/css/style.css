@@ -296,7 +296,7 @@ footer a {
     z-index: 0;
     position: relative;
     bottom: 83px;
-    width: 100%;
+    width: 700px;
   }
 
   .reset {
@@ -356,6 +356,19 @@ footer a {
     margin: 30px auto;
   }
 
+  h1 {
+    font-size: 5rem;
+    z-index: 3;
+  }
+
+  #underlineImg {
+    z-index: 0;
+    position: relative;
+    bottom: 65px;
+    width: 520px;
+    left: 330px;
+  }
+
   main {
     width: 85%;
     margin: auto;
@@ -395,6 +408,7 @@ footer a {
 
   .videoSection {
     display: flex;
+    margin-top: 60px;
   }
 
   #borderSection {
