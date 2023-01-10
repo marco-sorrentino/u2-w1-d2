@@ -29,10 +29,12 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   color: white;
-
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
 }
 header div img {
   margin-bottom: 20px;
