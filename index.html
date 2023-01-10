@@ -52,6 +52,9 @@
     <main>
       <article>
         <h1>Come creare un template per i post</h1>
+
+        <img id="underlineImg" src="./assets/img/underline.svg" alt="" />
+
         <p>
           <i class="fas fa-pen-square"></i> di Mario Rossi -
           <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span>
@@ -64,7 +67,7 @@
           />
         </div>
 
-        <p>
+        <p class="marginText">
           La prima cosa da fare è suddividere in blocchi logici la pagina,
           identificando le <strong>parti comuni</strong> da applicare a tutte le
           pagine
@@ -168,7 +171,9 @@
           ></iframe>
 
           <section id="borderSection">
-            <h2>Novità</h2>
+            <div class="h2Block">
+              <h2>Novità</h2>
+            </div>
             <p>
               Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
               nostra newsletter:
@@ -199,7 +204,7 @@
             title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
             >Validare il codice HTML</a
           >
-          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p><i class="fas fa-tag fa-2x"></i> Categoria: develop</p>
           <p><i class="fas fa-calendar-alt"></i> Data: 18-9-2020</p>
         </div>
 
@@ -209,7 +214,7 @@
             title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
             >Correggere la sintassi</a
           >
-          <p><i class="fas fa-tag"></i> Categoria: develop</p>
+          <p><i class="fas fa-tag fa-2x"></i> Categoria: develop</p>
           <p><i class="fas fa-calendar-alt"></i> Data: 16-9-2020</p>
         </div>
 
@@ -219,7 +224,7 @@
             title="Consigli ed approcci per ridurre il peso della pagina"
             >Meno Kb nella pagina</a
           >
-          <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+          <p><i class="fas fa-tag fa-2x"></i> Categoria: ottimizzazione</p>
           <p><i class="fas fa-calendar-alt"></i> Data: 30-9-2020</p>
         </div>
       </aside>
@@ -239,5 +244,17 @@
         >
       </address>
     </footer>
+
+    <div class="buttonDiv">
+      <div class="button">
+        <p>+</p>
+      </div>
+      <div class="button">
+        <p>C</p>
+      </div>
+      <div class="button">
+        <p>AR</p>
+      </div>
+    </div>
   </body>
 </html>
